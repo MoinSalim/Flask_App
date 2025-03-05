@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Cart List */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Total Price Section */
+p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+p a {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+p a:hover {
+    background-color: #218838;
+}
